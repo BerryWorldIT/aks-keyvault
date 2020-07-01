@@ -1,4 +1,4 @@
-echo "Setting up the variables..."
+echo "Setting up the variables... !"
 $suffix = "demo01"
 $subscriptionId = (az account show | ConvertFrom-Json).id
 $tenantId = (az account show | ConvertFrom-Json).tenantId
